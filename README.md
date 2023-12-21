@@ -33,3 +33,4 @@ your_package/
 4. **Verify Operation**: Check the output in the subscriber node's terminal to confirm it is correctly receiving and logging the image data published by the publisher node.
 
 This package is ideal for those starting with ROS 2 and image processing in robotics. It serves as a basic yet practical example of handling image data using ROS 2's communication mechanisms.
+Note: Mock-data is used, please take care of any dependencies that may occur in your system
