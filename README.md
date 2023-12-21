@@ -7,17 +7,14 @@ This ROS 2 package includes two nodes: `MinimalImagePublisher` and `ImageSubscri
 
 your_package/
 |-- src/
-| |-- minimal_image_publisher.cpp
-| |-- image_subscriber.cpp
+| |-- publisher_member_function.cpp
+| |-- subscriber_member_function.cpp
 |-- CMakeLists.txt
 |-- package.xml
 
-css
-
-
 - **src/**: Contains the source files.
-  - **minimal_image_publisher.cpp**: Implements the image publisher node.
-  - **image_subscriber.cpp**: Implements the image subscriber node.
+  - **publisher_member_function.cpp**: Implements the image publisher node.
+  - **subscriber_member_function.cpp**: Implements the image subscriber node.
 - **CMakeLists.txt**: CMake file for configuring the build of the ROS 2 package.
 - **package.xml**: Provides metadata and dependencies of the package.
 
